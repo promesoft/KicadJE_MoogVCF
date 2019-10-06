@@ -497,8 +497,6 @@ F 8 "Unavailable" H 3375 1575 50  0001 L BNN "Field8"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3250 1275 3750 1275
-Wire Wire Line
 	3250 1275 3250 1575
 Wire Wire Line
 	4250 1275 4250 1575
@@ -757,7 +755,7 @@ Wire Wire Line
 Wire Wire Line
 	3475 1375 3475 1325
 Wire Wire Line
-	3475 1325 3975 1325
+	3475 1325 3750 1325
 Wire Wire Line
 	3975 1325 3975 1375
 $Comp
@@ -773,9 +771,6 @@ F 3 "" H 3750 900 50  0001 C CNN
 	1    3750 900 
 	1    0    0    -1  
 $EndComp
-Connection ~ 3750 1275
-Wire Wire Line
-	3750 1275 4250 1275
 Wire Wire Line
 	3750 900  3750 950 
 $Comp
@@ -797,9 +792,6 @@ Wire Wire Line
 	2900 950  2900 1025
 Wire Wire Line
 	2900 3700 3250 3700
-Connection ~ 3750 950 
-Wire Wire Line
-	3750 950  3750 1275
 Connection ~ 3250 3700
 Wire Wire Line
 	2900 1325 2900 1575
@@ -1429,7 +1421,7 @@ Wire Wire Line
 	2750 6900 2750 6550
 Connection ~ 2750 6550
 Wire Wire Line
-	2750 6550 3525 6550
+	2750 6550 3150 6550
 Wire Wire Line
 	3000 6975 3150 6975
 Wire Wire Line
@@ -2462,4 +2454,17 @@ F 3 "" H 7500 1600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7525 1575 7500 1575
+Wire Wire Line
+	3250 1275 4250 1275
+Wire Wire Line
+	3750 950  3750 1325
+Connection ~ 3750 950 
+Connection ~ 3750 1325
+Wire Wire Line
+	3750 1325 3975 1325
+Wire Wire Line
+	3150 6575 3150 6550
+Connection ~ 3150 6550
+Wire Wire Line
+	3150 6550 3525 6550
 $EndSCHEMATC
