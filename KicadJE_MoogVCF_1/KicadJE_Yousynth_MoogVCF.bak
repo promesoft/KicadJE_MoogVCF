@@ -13,10 +13,4 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 7500 2500 2500 2525
-U 5D99B7BA
-F0 "KicadJE_Yousynth_MoogVCF" 50
-F1 "KicadJE_Yousynth_MoogVCF.sch" 50
-$EndSheet
 $EndSCHEMATC
