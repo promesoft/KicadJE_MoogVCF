@@ -2467,4 +2467,69 @@ Wire Wire Line
 Connection ~ 3150 6550
 Wire Wire Line
 	3150 6550 3525 6550
+$Comp
+L Device:R_POT_TRIM RV207
+U 1 1 5F021A79
+P 4975 6000
+F 0 "RV207" H 4905 6046 50  0000 R CNN
+F 1 "10k" H 4905 5955 50  0000 R CNN
+F 2 "AJ-Dropbox-Kicad:Bourns3296WV" H 4975 6000 50  0001 C CNN
+F 3 "~" H 4975 6000 50  0001 C CNN
+	1    4975 6000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F022297
+P 4975 6300
+AR Path="/5D99B81E/5F022297" Ref="#PWR?"  Part="1" 
+AR Path="/5D99B7BA/5F022297" Ref="#PWR0217"  Part="1" 
+F 0 "#PWR0217" H 4975 6050 50  0001 C CNN
+F 1 "GND" H 4980 6127 50  0000 C CNN
+F 2 "" H 4975 6300 50  0001 C CNN
+F 3 "" H 4975 6300 50  0001 C CNN
+	1    4975 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F02266F
+P 4550 6000
+AR Path="/5D99B81E/5F02266F" Ref="R?"  Part="1" 
+AR Path="/5D99B7BA/5F02266F" Ref="R243"  Part="1" 
+F 0 "R243" V 4550 6050 50  0000 C CNN
+F 1 "100k" V 4450 6075 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4480 6000 50  0001 C CNN
+F 3 "~" H 4550 6000 50  0001 C CNN
+	1    4550 6000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4225 6000 4400 6000
+Wire Wire Line
+	4700 6000 4825 6000
+Connection ~ 4225 6000
+Wire Wire Line
+	4975 6300 4975 6150
+$Comp
+L power:+12V #PWR?
+U 1 1 5F06322A
+P 4975 5775
+AR Path="/5D99B81E/5F06322A" Ref="#PWR?"  Part="1" 
+AR Path="/5D99B7BA/5F06322A" Ref="#PWR0216"  Part="1" 
+F 0 "#PWR0216" H 4975 5625 50  0001 C CNN
+F 1 "+12V" H 4990 5948 50  0000 C CNN
+F 2 "" H 4975 5775 50  0001 C CNN
+F 3 "" H 4975 5775 50  0001 C CNN
+	1    4975 5775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4975 5850 4975 5775
+Text Notes 5325 6175 0    47   ~ 0
+Apply a sinewave with frequency 32Hz to the audio input\nEmphasis potentiometer to minimum resonance\n (fully counter-clockwise)\nTurn the frequency knob fully counter-clockwise\nAdjust RV207, in order to mute the 32Hz signal.
+Text Notes 5275 4325 0    50   ~ 0
+Adjust RV202 in order to reach auto-oscillation \nnear 95% of the full range of the EMPHASIS pot.
+Text Notes 4400 7625 0    47   ~ 0
+Apply 0.000V to the V/Oct input\nTurn the frequency knob fully counter-clockwise in order to\n measure 0mV at the base of Q212 (node between R238 to R238)\nApply 1.000V to the V/Oct input\nAdjust RV205 in order to measure 18.2mV at the base of Q212\nApply 5.000V to the V/Oct input\nCheck that you have 91.0mVat the base of Q212, if not adjust RV205\nApply 0.000V to the V/Oct input\nSet the filter to auto-oscillation (EMPHASIS turned fully clockwise)\nConnect a keyboard (CV/GATE) to the V/Oct input\nPlay a tune and check the goodness of the tracking\nSlightly adjust RV205 to achieve a good chromatic tracking.
 $EndSCHEMATC
