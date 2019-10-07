@@ -2060,7 +2060,7 @@ Wire Wire Line
 Wire Wire Line
 	3775 6450 3775 6425
 Wire Wire Line
-	3775 6425 3550 6425
+	3775 6425 3675 6425
 Wire Wire Line
 	3550 6425 3550 6450
 $Comp
@@ -2124,8 +2124,6 @@ Wire Wire Line
 	3550 6050 3550 6025
 Wire Wire Line
 	3775 6025 3775 6050
-Wire Wire Line
-	3675 6400 3675 6375
 Connection ~ 3675 6375
 Wire Wire Line
 	3675 6375 3550 6375
@@ -2175,7 +2173,7 @@ Wire Wire Line
 Wire Wire Line
 	3775 5650 3775 5625
 Wire Wire Line
-	3775 5625 3550 5625
+	3775 5625 3675 5625
 Wire Wire Line
 	3550 5625 3550 5650
 $Comp
@@ -2239,8 +2237,6 @@ Wire Wire Line
 	3550 5250 3550 5225
 Wire Wire Line
 	3775 5225 3775 5250
-Wire Wire Line
-	3675 5600 3675 5575
 Connection ~ 3675 5575
 Wire Wire Line
 	3675 5575 3550 5575
@@ -2290,7 +2286,7 @@ Wire Wire Line
 Wire Wire Line
 	3775 4850 3775 4825
 Wire Wire Line
-	3775 4825 3550 4825
+	3775 4825 3675 4825
 Wire Wire Line
 	3550 4825 3550 4850
 $Comp
@@ -2354,8 +2350,6 @@ Wire Wire Line
 	3550 4450 3550 4425
 Wire Wire Line
 	3775 4425 3775 4450
-Wire Wire Line
-	3675 4800 3675 4775
 Connection ~ 3675 4775
 Wire Wire Line
 	3675 4775 3550 4775
@@ -2822,4 +2816,19 @@ F 3 "~" H 3675 1125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 3675 1125
+Wire Wire Line
+	3675 6375 3675 6425
+Connection ~ 3675 6425
+Wire Wire Line
+	3675 6425 3550 6425
+Wire Wire Line
+	3675 5575 3675 5625
+Connection ~ 3675 5625
+Wire Wire Line
+	3675 5625 3550 5625
+Wire Wire Line
+	3675 4775 3675 4825
+Connection ~ 3675 4825
+Wire Wire Line
+	3675 4825 3550 4825
 $EndSCHEMATC

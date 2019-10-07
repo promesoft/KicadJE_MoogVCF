@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\anders\Documents\KiCad\Projects\KicadJE_MoogVCF\KicadJE_MoogVCF_1\KicadJE_MoogVCF_1.sch)
-    (date "07/10/2019 21:20:40")
+    (date "07/10/2019 22:54:31")
     (tool "Eeschema (5.1.0)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1260,7 +1260,7 @@
       (sheetpath (names /KicadJE_Yousynth_WaveFolder/) (tstamps /5F56E895/))
       (tstamp 5F57E6F3))
     (comp (ref R401)
-      (value 47k)
+      (value 10k)
       (footprint Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder)
       (datasheet ~)
       (libsource (lib Device) (part R) (description Resistor))
@@ -1288,7 +1288,7 @@
       (sheetpath (names /KicadJE_Yousynth_WaveFolder/) (tstamps /5F56E895/))
       (tstamp 5F5888CB))
     (comp (ref R405)
-      (value 47k)
+      (value 10k)
       (footprint Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder)
       (datasheet ~)
       (libsource (lib Device) (part R) (description Resistor))
