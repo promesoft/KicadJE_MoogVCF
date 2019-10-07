@@ -3,7 +3,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 3
+Sheet 3 4
 Title "Thomas Henry 555 VCO test"
 Date "2019-05-26"
 Rev "Rev A"
@@ -995,16 +995,16 @@ $EndComp
 $Comp
 L Amplifier_Operational:TL072 U?
 U 3 1 5F2DDDF5
-P 3375 1100
+P 3175 1100
 AR Path="/5D99B81E/5F2DDDF5" Ref="U?"  Part="3" 
 AR Path="/5D99B7BA/5F2DDDF5" Ref="U?"  Part="1" 
 AR Path="/5F18E4B5/5F2DDDF5" Ref="U301"  Part="3" 
-F 0 "U301" H 3250 1575 50  0000 C CNN
-F 1 "TL072" H 3250 1500 50  0000 C CNN
-F 2 "AJ-Dropbox-Kicad:AJ_SO-8_5.3x6.2mm_P1.27mm" H 3375 1100 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 3375 1100 50  0001 C CNN
-	3    3375 1100
-	1    0    0    1   
+F 0 "U301" H 3050 1575 50  0000 C CNN
+F 1 "TL072" H 3050 1500 50  0000 C CNN
+F 2 "AJ-Dropbox-Kicad:AJ_SO-8_5.3x6.2mm_P1.27mm" H 3175 1100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 3175 1100 50  0001 C CNN
+	3    3175 1100
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:D D?
@@ -1241,7 +1241,7 @@ U 2 1 5F3238CC
 P 7425 3175
 F 0 "SW301" H 7425 2850 50  0000 C CNN
 F 1 "SW_DPDT_x2" H 7425 2941 50  0000 C CNN
-F 2 "AJ:SPDTx2" H 7425 3175 50  0001 C CNN
+F 2 "AJ:Johansen_engineering_logo_20mm" H 7425 3175 50  0001 C CNN
 F 3 "~" H 7425 3175 50  0001 C CNN
 	2    7425 3175
 	1    0    0    1   
@@ -1252,7 +1252,7 @@ U 1 1 5F324CB2
 P 7425 2400
 F 0 "SW301" H 7425 2685 50  0000 C CNN
 F 1 "SW_DPDT_x2" H 7425 2594 50  0000 C CNN
-F 2 "AJ:SPDTx2" H 7425 2400 50  0001 C CNN
+F 2 "AJ:Johansen_engineering_logo_20mm" H 7425 2400 50  0001 C CNN
 F 3 "~" H 7425 2400 50  0001 C CNN
 	1    7425 2400
 	1    0    0    -1  
@@ -1291,7 +1291,7 @@ AR Path="/5CE53731/5F341D70" Ref="C?"  Part="1"
 AR Path="/5DD87D87/5F341D70" Ref="C?"  Part="1" 
 AR Path="/5F18E4B5/5F341D70" Ref="C306"  Part="1" 
 F 0 "C306" H 7750 3200 50  0000 L CNN
-F 1 "10u" H 7775 3000 50  0000 L CNN
+F 1 "10u_N/A" H 7775 3000 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7913 2925 50  0001 C CNN
 F 3 "~" H 7875 3075 50  0001 C CNN
 	1    7875 3075
@@ -1318,8 +1318,6 @@ $EndComp
 Wire Wire Line
 	8025 3275 8075 3275
 Wire Wire Line
-	7625 3275 7725 3275
-Wire Wire Line
 	7625 3075 7725 3075
 $Comp
 L Device:R R?
@@ -1332,7 +1330,7 @@ AR Path="/5DD87D87/5DDB8911/5F3633EA" Ref="R?"  Part="1"
 AR Path="/5DD87D87/5F3633EA" Ref="R?"  Part="1" 
 AR Path="/5F18E4B5/5F3633EA" Ref="R304"  Part="1" 
 F 0 "R304" V 7850 2250 50  0000 C CNN
-F 1 "120R" V 7734 2300 50  0000 C CNN
+F 1 "120R_N/A" V 7950 2300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7780 2300 50  0001 C CNN
 F 3 "~" H 7850 2300 50  0001 C CNN
 	1    7850 2300
@@ -1380,7 +1378,7 @@ Wire Wire Line
 	6700 2400 6700 3175
 Connection ~ 6700 3175
 Wire Wire Line
-	6700 3175 7225 3175
+	6700 3175 7200 3175
 Wire Wire Line
 	6700 2400 6800 2400
 Wire Wire Line
@@ -1579,12 +1577,22 @@ U 1 1 5F423C7A
 P 1300 1000
 AR Path="/5D99B81E/5F423C7A" Ref="P?"  Part="1" 
 AR Path="/5D99B7BA/5F423C7A" Ref="P?"  Part="1" 
-AR Path="/5F18E4B5/5F423C7A" Ref="P?"  Part="1" 
-F 0 "P?" H 1300 1565 50  0000 C CNN
+AR Path="/5F18E4B5/5F423C7A" Ref="P301"  Part="1" 
+F 0 "P301" H 1300 1565 50  0000 C CNN
 F 1 "Doepfer_Power_10pin" H 1300 1474 50  0000 C CNN
 F 2 "Connectors_IDC:IDC-Header_2x05_Pitch2.54mm_Straight" H 1300 1000 50  0001 C CNN
 F 3 "" H 1300 1000 50  0001 C CNN
 	1    1300 1000
 	1    0    0    1   
 $EndComp
+Wire Wire Line
+	7200 3275 7200 3175
+Wire Wire Line
+	7200 3275 7625 3275
+Connection ~ 7625 3275
+Wire Wire Line
+	7625 3275 7725 3275
+Connection ~ 7200 3175
+Wire Wire Line
+	7200 3175 7225 3175
 $EndSCHEMATC

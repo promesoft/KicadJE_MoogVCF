@@ -3,7 +3,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 3
+Sheet 3 4
 Title "Thomas Henry 555 VCO test"
 Date "2019-05-26"
 Rev "Rev A"
@@ -995,16 +995,16 @@ $EndComp
 $Comp
 L Amplifier_Operational:TL072 U?
 U 3 1 5F2DDDF5
-P 3375 1100
+P 3175 1100
 AR Path="/5D99B81E/5F2DDDF5" Ref="U?"  Part="3" 
 AR Path="/5D99B7BA/5F2DDDF5" Ref="U?"  Part="1" 
 AR Path="/5F18E4B5/5F2DDDF5" Ref="U301"  Part="3" 
-F 0 "U301" H 3250 1575 50  0000 C CNN
-F 1 "TL072" H 3250 1500 50  0000 C CNN
-F 2 "AJ-Dropbox-Kicad:AJ_SO-8_5.3x6.2mm_P1.27mm" H 3375 1100 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 3375 1100 50  0001 C CNN
-	3    3375 1100
-	1    0    0    1   
+F 0 "U301" H 3050 1575 50  0000 C CNN
+F 1 "TL072" H 3050 1500 50  0000 C CNN
+F 2 "AJ-Dropbox-Kicad:AJ_SO-8_5.3x6.2mm_P1.27mm" H 3175 1100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 3175 1100 50  0001 C CNN
+	3    3175 1100
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:D D?
