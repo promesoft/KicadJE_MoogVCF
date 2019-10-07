@@ -350,19 +350,6 @@ F 3 "" H 1175 7325 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:SW_Push SW?
-U 1 1 5F578E81
-P 7550 5975
-AR Path="/5F18E4B5/5F578E81" Ref="SW?"  Part="1" 
-AR Path="/5F56E895/5F578E81" Ref="SW401"  Part="1" 
-F 0 "SW401" V 7596 5927 50  0000 R CNN
-F 1 "Gate" V 7625 6400 50  0000 R CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm" H 7550 6175 50  0001 C CNN
-F 3 "" H 7550 6175 50  0001 C CNN
-	1    7550 5975
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:R R?
 U 1 1 5F578E91
 P 8625 4475
