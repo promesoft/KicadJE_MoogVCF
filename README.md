@@ -6,7 +6,8 @@ Based on https://www.yusynth.net/Modular/Commun/MOOGVCF/Moogfilter-sch.jpg
 ![](KicadJE_MoogVCF_1/KicadJE_MoogVCF_1_sch.png)
 ## Simple 555 ADSR
 ![](KicadJE_MoogVCF_1/KicadJE_ADSR_1_sch.png)
-
+## WaveFolder
+![](KicadJE_MoogVCF_1/KicadJE_WaveFolder_1_sch.png)
 # Inspiration
  http://jhaible.com/legacy/jh_shaper_B.pdf
  
