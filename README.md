@@ -1,6 +1,10 @@
 # KicadJE_MoogVCF
 Based on https://www.yusynth.net/Modular/Commun/MOOGVCF/Moogfilter-sch.jpg
 
+Based on https://www.yusynth.net/Modular/Commun/WAVEFOLDER/new/JHWavefolder-sch.gif
+
+Based on https://www.yusynth.net/Modular/Commun/ADSR/ADSR555-FINAL.gif
+
 # Schematic
 ## Ladder Filter
 ![](KicadJE_MoogVCF_1/KicadJE_MoogVCF_1_sch.png)
