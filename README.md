@@ -12,14 +12,16 @@ Based on https://www.yusynth.net/Modular/Commun/ADSR/ADSR555-FINAL.gif
 | ------------- | ------------- | ------------- |
 | create material  | sch/pcb | OK  |
 | | gerber | OK |
-| production  |   | Ordered |
+| production  |   | Ok |
 |  | produced | OK |
-|  | delivered | in the mail |
+|  | delivered | Ok |
 ## Preliminary validation
 | Test  | Detail | Status |
 | ------------- | ------------- | ------------- |
-| Initial Inspection | |  |
-| Initial Technical Test |  |  |
+| Initial Inspection | | OK - silk messed a bit |
+| Initial Technical Test |  | OK |
+| Initial Product Test |  |  |
+| Initial Product Test | ADSR | OK - Sustain seems strange |
 | Initial Product Test |  |  |
 
 ## Secondary validation
