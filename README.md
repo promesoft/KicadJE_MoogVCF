@@ -38,7 +38,8 @@ Based on https://www.yusynth.net/Modular/Commun/ADSR/ADSR555-FINAL.gif
 ### Errata -
 
 ## Issues and Notes
-### 
+### VCF
+* C211, 212, 214 should be 1206 (its a bit difficult to find 22u 0805 in 16v)
 
 # Pictures
 
