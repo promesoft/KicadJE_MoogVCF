@@ -2388,9 +2388,6 @@ Wire Wire Line
 	8150 6100 8150 6200
 Wire Wire Line
 	8525 6100 8525 6200
-Connection ~ 8525 4375
-Wire Wire Line
-	8525 4375 8525 4450
 Wire Wire Line
 	5250 4375 5250 3750
 Wire Wire Line
@@ -2525,4 +2522,58 @@ Text Notes 4400 7625 0    47   ~ 0
 Apply 0.000V to the V/Oct input\nTurn the frequency knob fully counter-clockwise in order to\n measure 0mV at the base of Q212 (node between R238 to R238)\nApply 1.000V to the V/Oct input\nAdjust RV205 in order to measure 18.2mV at the base of Q212\nApply 5.000V to the V/Oct input\nCheck that you have 91.0mVat the base of Q212, if not adjust RV205\nApply 0.000V to the V/Oct input\nSet the filter to auto-oscillation (EMPHASIS turned fully clockwise)\nConnect a keyboard (CV/GATE) to the V/Oct input\nPlay a tune and check the goodness of the tracking\nSlightly adjust RV205 to achieve a good chromatic tracking.
 Wire Wire Line
 	8050 5800 8250 5800
+Wire Wire Line
+	7500 5125 7500 4525
+Wire Wire Line
+	7500 4525 5625 4525
+Wire Wire Line
+	5625 4525 5625 1950
+Wire Wire Line
+	5625 1950 4800 1950
+Connection ~ 7500 5125
+Wire Wire Line
+	5750 1775 5750 4450
+Wire Wire Line
+	8875 4450 8875 5125
+Connection ~ 3475 1775
+Connection ~ 8875 5125
+Connection ~ 8525 4375
+Wire Wire Line
+	8525 4375 8525 4450
+Wire Wire Line
+	5750 4450 8875 4450
+$Comp
+L Device:C C?
+U 1 1 5E533F64
+P 4650 1775
+AR Path="/5D99B81E/5E533F64" Ref="C?"  Part="1" 
+AR Path="/5D99B7BA/5E533F64" Ref="C?"  Part="1" 
+F 0 "C?" V 4550 1825 50  0000 L CNN
+F 1 "220n" V 4600 1575 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4688 1625 50  0001 C CNN
+F 3 "~" H 4650 1775 50  0001 C CNN
+	1    4650 1775
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4800 1775 5750 1775
+$Comp
+L Device:C C?
+U 1 1 5E5352A9
+P 4650 1950
+AR Path="/5D99B81E/5E5352A9" Ref="C?"  Part="1" 
+AR Path="/5D99B7BA/5E5352A9" Ref="C?"  Part="1" 
+F 0 "C?" V 4550 2000 50  0000 L CNN
+F 1 "220n" V 4600 1750 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4688 1800 50  0001 C CNN
+F 3 "~" H 4650 1950 50  0001 C CNN
+	1    4650 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4500 1950 3975 1950
+Wire Wire Line
+	3475 1775 4500 1775
+Text Notes 4900 1925 0    50   ~ 0
+Missing from RevA
 $EndSCHEMATC

@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:KicadJE_MoogVCF_1-cache
+LIBS:KicadJE_MoogVCF_1b-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -235,12 +235,7 @@ Connection ~ 7825 5525
 Wire Wire Line
 	8050 5725 8050 5800
 Wire Wire Line
-	8050 5800 8150 5800
-Wire Wire Line
 	8250 5725 8250 5800
-Wire Wire Line
-	8250 5800 8150 5800
-Connection ~ 8150 5800
 Wire Wire Line
 	8525 4750 8525 4850
 Wire Wire Line
@@ -309,10 +304,10 @@ F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 1775 4250 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L UMX1N:UMX1N Q209
+L UMX1N:UMX1N Q?
 U 1 1 5DB0E777
 P 7725 5125
-F 0 "Q209" H 7869 5171 50  0000 L CNN
+F 0 "Q?" H 7869 5171 50  0000 L CNN
 F 1 "UMX1N" H 7869 5080 50  0000 L CNN
 F 2 "AJ:UMX1N_UMT6_DualNPN" H 7725 5125 50  0001 L BNN
 F 3 "" H 7725 5125 50  0001 L BNN
@@ -325,10 +320,10 @@ F 8 "Unavailable" H 7725 5125 50  0001 L BNN "Field8"
 	1    0    0    -1  
 $EndComp
 $Comp
-L UMX1N:UMX1N Q209
+L UMX1N:UMX1N Q?
 U 2 1 5DB0F880
 P 8625 5125
-F 0 "Q209" H 8768 5171 50  0000 L CNN
+F 0 "Q?" H 8768 5171 50  0000 L CNN
 F 1 "UMX1N" H 8768 5080 50  0000 L CNN
 F 2 "AJ:UMX1N_UMT6_DualNPN" H 8625 5125 50  0001 L BNN
 F 3 "" H 8625 5125 50  0001 L BNN
@@ -341,10 +336,10 @@ F 8 "Unavailable" H 8625 5125 50  0001 L BNN "Field8"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L UMX1N:UMX1N Q210
+L UMX1N:UMX1N Q?
 U 2 1 5DB15A14
 P 8350 5525
-F 0 "Q210" H 8493 5571 50  0000 L CNN
+F 0 "Q?" H 8493 5571 50  0000 L CNN
 F 1 "UMX1N" H 8493 5480 50  0000 L CNN
 F 2 "AJ:UMX1N_UMT6_DualNPN" H 8350 5525 50  0001 L BNN
 F 3 "" H 8350 5525 50  0001 L BNN
@@ -357,10 +352,10 @@ F 8 "Unavailable" H 8350 5525 50  0001 L BNN "Field8"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L UMX1N:UMX1N Q210
+L UMX1N:UMX1N Q?
 U 1 1 5DB16EF1
 P 7950 5525
-F 0 "Q210" H 8094 5571 50  0000 L CNN
+F 0 "Q?" H 8094 5571 50  0000 L CNN
 F 1 "UMX1N" H 8094 5480 50  0000 L CNN
 F 2 "AJ:UMX1N_UMT6_DualNPN" H 7950 5525 50  0001 L BNN
 F 3 "" H 7950 5525 50  0001 L BNN
@@ -466,10 +461,10 @@ Wire Wire Line
 Wire Wire Line
 	4175 1575 4250 1575
 $Comp
-L UMX1N:UMX1N Q201
+L UMX1N:UMX1N Q?
 U 2 1 5DBDF104
 P 4075 1575
-F 0 "Q201" H 4150 1625 50  0000 L CNN
+F 0 "Q?" H 4150 1625 50  0000 L CNN
 F 1 "UMX1N" H 4200 1475 50  0000 L CNN
 F 2 "AJ:UMX1N_UMT6_DualNPN" H 4075 1575 50  0001 L BNN
 F 3 "" H 4075 1575 50  0001 L BNN
@@ -482,10 +477,10 @@ F 8 "Unavailable" H 4075 1575 50  0001 L BNN "Field8"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L UMX1N:UMX1N Q201
+L UMX1N:UMX1N Q?
 U 1 1 5DBDF10F
 P 3375 1575
-F 0 "Q201" H 3450 1575 50  0000 L CNN
+F 0 "Q?" H 3450 1575 50  0000 L CNN
 F 1 "UMX1N" H 3500 1725 50  0000 L CNN
 F 2 "AJ:UMX1N_UMT6_DualNPN" H 3375 1575 50  0001 L BNN
 F 3 "" H 3375 1575 50  0001 L BNN
@@ -502,10 +497,10 @@ Wire Wire Line
 Wire Wire Line
 	4250 1275 4250 1575
 $Comp
-L UMX1N:UMX1N Q208
+L UMX1N:UMX1N Q?
 U 2 1 5DC0A492
 P 4075 4250
-F 0 "Q208" H 3800 4300 50  0000 L CNN
+F 0 "Q?" H 3800 4300 50  0000 L CNN
 F 1 "UMX1N" H 3775 4200 50  0000 L CNN
 F 2 "AJ:UMX1N_UMT6_DualNPN" H 4075 4250 50  0001 L BNN
 F 3 "" H 4075 4250 50  0001 L BNN
@@ -518,10 +513,10 @@ F 8 "Unavailable" H 4075 4250 50  0001 L BNN "Field8"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L UMX1N:UMX1N Q208
+L UMX1N:UMX1N Q?
 U 1 1 5DC0A49D
 P 3375 4250
-F 0 "Q208" H 3475 4275 50  0000 L CNN
+F 0 "Q?" H 3475 4275 50  0000 L CNN
 F 1 "UMX1N" H 3500 4425 50  0000 L CNN
 F 2 "AJ:UMX1N_UMT6_DualNPN" H 3375 4250 50  0001 L BNN
 F 3 "" H 3375 4250 50  0001 L BNN
@@ -649,8 +644,6 @@ Wire Wire Line
 	3475 2850 3475 2600
 Wire Wire Line
 	3475 2600 3600 2600
-Connection ~ 3475 3250
-Connection ~ 3975 3250
 $Comp
 L MMBT2222A:MMBT2222A Q?
 U 1 1 5DC961A5
@@ -716,8 +709,6 @@ Wire Wire Line
 	3975 1950 3900 1950
 Wire Wire Line
 	3475 2200 3475 1950
-Connection ~ 3475 2600
-Connection ~ 3975 2600
 Wire Wire Line
 	3975 1775 3975 1950
 Connection ~ 3975 1950
@@ -1008,10 +999,10 @@ Wire Wire Line
 Wire Wire Line
 	4475 4975 4475 5200
 $Comp
-L Device:R_POT_TRIM RV202
+L Device:R_POT_TRIM RV?
 U 1 1 5DEAF2E2
 P 4725 4250
-F 0 "RV202" H 4655 4296 50  0000 R CNN
+F 0 "RV?" H 4655 4296 50  0000 R CNN
 F 1 "1k" H 4655 4205 50  0000 R CNN
 F 2 "AJ-Dropbox-Kicad:Bourns3296WV" H 4725 4250 50  0001 C CNN
 F 3 "~" H 4725 4250 50  0001 C CNN
@@ -1023,10 +1014,10 @@ Wire Wire Line
 Wire Wire Line
 	4175 4250 4575 4250
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:POT RV201
+L Envelope-cache-2018-08-04-13-00-04:POT RV?
 U 1 1 5DED872F
 P 5050 3750
-F 0 "RV201" V 4935 3750 50  0000 C CNN
+F 0 "RV?" V 4935 3750 50  0000 C CNN
 F 1 "50k_emphasis" V 4844 3750 50  0000 C CNN
 F 2 "AJ-Dropbox-Kicad:Potentiometer_China_RK09_Single_Vertical_AJ" H 5050 3750 50  0001 C CNN
 F 3 "" H 5050 3750 50  0001 C CNN
@@ -1137,10 +1128,10 @@ F 3 "~" H 4475 5350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:CP C213
+L Device:CP C?
 U 1 1 5DFE0F73
 P 4225 5350
-F 0 "C213" H 4150 5225 50  0000 L CNN
+F 0 "C?" H 4150 5225 50  0000 L CNN
 F 1 "Opt_220u" H 4075 5525 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 4263 5200 50  0001 C CNN
 F 3 "~" H 4225 5350 50  0001 C CNN
@@ -1180,10 +1171,10 @@ Connection ~ 4225 7275
 Wire Wire Line
 	4225 7275 4225 7300
 $Comp
-L Device:R_POT_TRIM RV205
+L Device:R_POT_TRIM RV?
 U 1 1 5E05679B
 P 3525 7050
-F 0 "RV205" H 3455 7096 50  0000 R CNN
+F 0 "RV?" H 3455 7096 50  0000 R CNN
 F 1 "500R" H 3455 7005 50  0000 R CNN
 F 2 "AJ-Dropbox-Kicad:Bourns3296WV" H 3525 7050 50  0001 C CNN
 F 3 "~" H 3525 7050 50  0001 C CNN
@@ -1342,10 +1333,10 @@ Wire Wire Line
 Text GLabel 1725 6700 0    50   Input ~ 0
 CV1
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:POT RV203
+L Envelope-cache-2018-08-04-13-00-04:POT RV?
 U 1 1 5E272968
 P 1875 6900
-F 0 "RV203" H 1805 6946 50  0000 R CNN
+F 0 "RV?" H 1805 6946 50  0000 R CNN
 F 1 "50k_CV1" H 1805 6855 50  0000 R CNN
 F 2 "AJ-Dropbox-Kicad:Potentiometer_China_RK09_Single_Vertical_AJ" H 1875 6900 50  0001 C CNN
 F 3 "" H 1875 6900 50  0001 C CNN
@@ -1393,10 +1384,10 @@ $EndComp
 Wire Wire Line
 	2650 6550 2750 6550
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:POT RV204
+L Envelope-cache-2018-08-04-13-00-04:POT RV?
 U 1 1 5E360D51
 P 2850 6975
-F 0 "RV204" H 2780 7021 50  0000 R CNN
+F 0 "RV?" H 2780 7021 50  0000 R CNN
 F 1 "10k_Freq" H 2780 6930 50  0000 R CNN
 F 2 "AJ-Dropbox-Kicad:Potentiometer_China_RK09_Single_Vertical_AJ" H 2850 6975 50  0001 C CNN
 F 3 "" H 2850 6975 50  0001 C CNN
@@ -1463,10 +1454,10 @@ Wire Wire Line
 Wire Wire Line
 	2850 6425 2850 6350
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:POT RV206
+L Envelope-cache-2018-08-04-13-00-04:POT RV?
 U 1 1 5E45B987
 P 1025 6900
-F 0 "RV206" H 955 6946 50  0000 R CNN
+F 0 "RV?" H 955 6946 50  0000 R CNN
 F 1 "50k_CV2" H 955 6855 50  0000 R CNN
 F 2 "AJ-Dropbox-Kicad:Potentiometer_China_RK09_Single_Vertical_AJ" H 1025 6900 50  0001 C CNN
 F 3 "" H 1025 6900 50  0001 C CNN
@@ -1584,7 +1575,6 @@ F 3 "~" H 10000 2775 50  0001 C CNN
 	1    10000 2775
 	0    1    1    0   
 $EndComp
-Connection ~ 9725 1150
 Wire Wire Line
 	10175 2575 10250 2575
 $Comp
@@ -2426,10 +2416,10 @@ Wire Wire Line
 	8250 1575 8675 1575
 Connection ~ 8675 1575
 $Comp
-L Device:LED D211
+L Device:LED D?
 U 1 1 5EC8D67F
 P 7675 1575
-F 0 "D211" H 7668 1320 50  0000 C CNN
+F 0 "D?" H 7668 1320 50  0000 C CNN
 F 1 "LED" H 7668 1411 50  0000 C CNN
 F 2 "LED_SMD:LED_0805_2012Metric" H 7675 1575 50  0001 C CNN
 F 3 "~" H 7675 1575 50  0001 C CNN
@@ -2469,10 +2459,10 @@ Connection ~ 3150 6550
 Wire Wire Line
 	3150 6550 3525 6550
 $Comp
-L Device:R_POT_TRIM RV207
+L Device:R_POT_TRIM RV?
 U 1 1 5F021A79
 P 4975 6000
-F 0 "RV207" H 4905 6046 50  0000 R CNN
+F 0 "RV?" H 4905 6046 50  0000 R CNN
 F 1 "10k" H 4905 5955 50  0000 R CNN
 F 2 "AJ-Dropbox-Kicad:Bourns3296WV" H 4975 6000 50  0001 C CNN
 F 3 "~" H 4975 6000 50  0001 C CNN
@@ -2533,4 +2523,6 @@ Text Notes 5275 4325 0    50   ~ 0
 Adjust RV202 in order to reach auto-oscillation \nnear 95% of the full range of the EMPHASIS pot.
 Text Notes 4400 7625 0    47   ~ 0
 Apply 0.000V to the V/Oct input\nTurn the frequency knob fully counter-clockwise in order to\n measure 0mV at the base of Q212 (node between R238 to R238)\nApply 1.000V to the V/Oct input\nAdjust RV205 in order to measure 18.2mV at the base of Q212\nApply 5.000V to the V/Oct input\nCheck that you have 91.0mVat the base of Q212, if not adjust RV205\nApply 0.000V to the V/Oct input\nSet the filter to auto-oscillation (EMPHASIS turned fully clockwise)\nConnect a keyboard (CV/GATE) to the V/Oct input\nPlay a tune and check the goodness of the tracking\nSlightly adjust RV205 to achieve a good chromatic tracking.
+Wire Wire Line
+	8050 5800 8250 5800
 $EndSCHEMATC
