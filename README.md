@@ -20,17 +20,17 @@ Based on https://www.yusynth.net/Modular/Commun/ADSR/ADSR555-FINAL.gif
 | ------------- | ------------- | ------------- |
 | Initial Inspection | | OK - silk messed a bit |
 | Initial Technical Test |  | OK |
-| Initial Product Test | VCF | Not working due to missing Caps - working ok after botch'ed caps added |
+| Initial Product Test | VCF | Not working due to missing Caps |
 | Initial Product Test | ADSR | OK - Sustain seems strange |
 | Initial Product Test |  |  |
 
 ## Secondary validation
 | Test  | Detail | Status |
 | ------------- | ------------- |------------- |
-| Product Test |  | |
+| Product Test | CF | VCF - working ok after botch'ed caps added - no self osc|
 | Product Test | ADSR | Works fine after added 100k resistors instead of 0R across 100KB pots |
 | Product Test |  | |
-| Quality | | |
+| Quality | VCF | Needs tweaking |
 | Quality | ADSR | ADSR interacts when turned all the way down|
 | Quality | | |
 | Long Term Product Test |  |  |
