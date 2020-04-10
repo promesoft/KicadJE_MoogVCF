@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name KicadJE_MoogVCF_1b-rescue)(type Legacy)(uri ${KIPRJMOD}/KicadJE_MoogVCF_1b-rescue.lib)(options "")(descr ""))
+)
