@@ -34,7 +34,7 @@ Based on https://www.yusynth.net/Modular/Commun/ADSR/ADSR555-FINAL.gif
 | Quality | ADSR | ADSR interacts when turned all the way down|
 | Quality | Wavefolder| Nice |
 | Long Term Product Test |  |  |
-| Power Draw | VCF | mA |
+| Power Draw | VCF | 24mA |
 | Power Draw | ADSR | mA |
 | Power Draw | Wavefolder | 7mA |
 
