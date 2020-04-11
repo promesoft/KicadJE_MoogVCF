@@ -19,7 +19,9 @@ Based on https://www.yusynth.net/Modular/Commun/ADSR/ADSR555-FINAL.gif
 | Test  | Detail | Status |
 | ------------- | ------------- | ------------- |
 | Initial Inspection | | OK - silk messed a bit |
-| Initial Technical Test |  | OK |
+| Initial Technical Test | VCF | CV2 signal issue round Jack |
+| Initial Technical Test | ADSR | OK |
+| Initial Technical Test | WaveFolder | OK |
 | Initial Product Test | VCF | Not working due to missing Caps |
 | Initial Product Test | ADSR | OK |
 | Initial Product Test | Wavefolder | Works nicely |
