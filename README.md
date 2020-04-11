@@ -47,8 +47,8 @@ Based on https://www.yusynth.net/Modular/Commun/ADSR/ADSR555-FINAL.gif
 * C211 and C212 should be 1206 or bigger (10u 16v potentially sounds better than 0805)
 
 # Pictures
+![](Window.jpg)
 ![](MoogLP.jpg)
-![]()
 
 # Inspiration
 
