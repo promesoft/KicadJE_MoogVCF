@@ -40,6 +40,7 @@ Based on https://www.yusynth.net/Modular/Commun/ADSR/ADSR555-FINAL.gif
 
 ## Errata
 ### Errata - 
+ * Missing 2 caps from C207 to R226/227
 
 ## Issues and Notes
 ### VCF
